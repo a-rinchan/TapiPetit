@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/tapiTea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/tapi_cup" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="24dp"
+            android:paddingTop="16dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/tapi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingTop="16dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/tapi5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="34dp"
+            android:paddingTop="16dp"
+            android:paddingRight="34dp"
+            android:paddingBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/tapi9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="36dp"
+            android:paddingTop="16dp"
+            android:paddingRight="36dp"
+            android:paddingBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/tapi13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+
+            <ImageButton
+                android:id="@+id/tapi16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tapiTea"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tapioca_black" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
