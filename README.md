@@ -9,5 +9,4 @@ Life is Tech Leaders+の課題 :
 
 ## Demo
 
-<img src="tapi_main.png" width="200px">
-<img src="tapi_result.png" width="200px">
+<img src="tapi_main.png" width="200px">　<img src="tapi_result.png" width="200px">
